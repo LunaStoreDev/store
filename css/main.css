@@ -1,0 +1,282 @@
+/* 
+
+	Привет любителям покопаться в коде.
+	Жизнь слишком коротка, чтобы тратить её на ссоры и конфликты
+	
+	Этот код был написан собственными силами. Понимаю, что он
+	может быть неидеальным, но самое главное - оно работает.
+	
+	Желаю всего наилучшего!
+	01.01.2026, 14:41
+
+*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, Arial, sans-serif, 'Franklin Gothic Medium';
+  font-size: 12px;
+  background: #2b67b3 url('../img/cover.jpg');
+}
+.container {
+  width: 700px;
+  margin: 10px auto;
+  background: #f2f6fc;
+  border: 1px solid #7aa0e6;
+}
+.rl_l{
+  float: right;
+}
+
+.header {
+  background:#3f78d6 url('../img/xhead3.png');
+  color:#fff;
+  padding:6px 10px;
+  height:50px;
+}
+.header h1 {
+  margin:0;
+  font-size:20px;
+}
+
+.subtitle a {
+  color: #fff;
+}
+
+.header .subtitle {
+  font-size:11px;
+}
+
+.main {
+  overflow:hidden;
+  padding:10px;
+}
+.sidebar {
+  float:left;
+  width:200px;
+}
+.sidebar .box {
+  background: #d6dff7;
+  border:1px solid #fff;
+  margin-bottom:10px;
+  padding:6px;
+  color: #215dc6;
+}
+
+.adv_block {
+  background: #fff;
+  margin-bottom:10px;
+  color: #215dc6;
+}
+
+.adv_block img{
+  width: 195px;
+}
+
+.adv_block img a{
+    color: #fff;
+}
+
+.adv_img_splash {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar .boxhead {
+  background: url('../img/blockheadtop.png');
+  padding:5px;
+  color: #215dc6;
+}
+
+.sidebar .boxhead_primary {
+	background: url('../img/blockheadtop_p.png');
+	color: #fff;
+	padding:5px;
+}
+
+.sidebar ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.sidebar a {
+  text-decoration: none;
+  color: #215dc6;
+}
+.sidebar li {
+  padding:4px;
+  padding-left: 24px;
+  cursor:pointer;
+}
+.sidebar li.active {
+  background:#bfe0ff;
+  border:1px solid #215dc6;
+  font-weight:bold;
+  color: #000;
+}
+
+.sidebar li#active {
+  border:1px solid #215dc6;
+  font-weight:bold;
+  color: #000;
+}
+
+.sidebar li.myhome{background:url(../img/icons.png) no-repeat 0px -2px;}
+.sidebar li.top{background:url(../img/icons.png) no-repeat 0px -24px;}
+
+
+.card_other_button{
+  padding: 10px;
+  color:#163b6f;
+}
+
+.card_other_button a{
+  color:#163b6f;
+}
+
+.content {
+  width: 460px;
+  display: inline-block;
+  float: right;
+}
+.section {
+  margin-bottom:12px;
+  border:1px solid #cfe1ff;
+  background:#ffffff;
+  padding:5px;
+}
+.section h2 {
+  margin:0 0 6px 0;
+  font-size:14px;
+  color: #000;
+}
+.separator_store{
+  background: url(../img/separatorstore.png);
+  height: 1px;
+  line-height: 1px;
+  font-size: 0;
+  overflow: hidden; /* я манал это под IE верстать */
+}
+
+.action {
+  clear:both;
+}
+.action a {
+  border:1px solid #7aa0e6;
+  background:#2f78d6;
+  color:#fff;
+  padding:4px 6px;
+  font-size:12px;
+  text-decoration: none;
+}
+.footer {
+  clear:both;
+  padding:12px;
+  background:#e0edff;
+  font-size:11px;
+  color:#294b76;
+}
+.footer a{
+    color:#294b76;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+    display: inline;
+}
+.txtr{
+    text-align: right;
+}
+.dm_menu {
+  clear:both;
+  padding:8px;
+  background:#000;
+  font-size:11px;
+  color:#fff;
+}
+.dm_menu a{
+    color:#fff;
+}
+.headerline{
+    height: 6px;
+    background: #294b76 url('../img/headline.png');
+    line-height: 1px;
+    font-size: 0;
+    overflow: hidden; 
+}
+.separator{
+    height: 1px;
+    background: #e6e6e6;
+}
+
+.ls_dm_logo{
+	width: 96px;
+	height: 48px;
+	float: left;
+}
+
+.brief_intro{
+    resize: none;
+    width: 390px;
+    height: 120px;
+}
+
+/* СТРАНИЦА С ЧАСТО ЗАДАВАЕМЫМИ ВОПРОСАМИ, УЖЕ НАРАБОТКА БЫЛА */
+.faq_card{
+    margin-top: 5px;
+}
+
+#faq_title {
+    background: #fbf3c3;
+    margin: 0 5px;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #d7cf9e;
+    border-bottom: 0;
+}
+
+#faq_content {
+    background: #fafafa;
+    margin: 0 5px 10px;
+    padding: 5px 5px 5px 10px;
+    border: 1px solid #ddd;
+}
+
+input[type=submit] {
+	border:1px solid #7aa0e6;
+	background:#2f78d6;
+	color:#fff;
+	padding:4px 6px;
+	font-size:12px;
+	text-decoration: none;
+}
+
+.sidebar_info{
+  border: 1px solid #e6e6e6;
+  padding: 25px; /* we af tehnologi bruhh */
+  text-align: center;
+  color: #bbb;
+  background: #fff;
+}
+
+.error_icon{
+  background: url(../img/error_small.png) no-repeat;
+  float:left;
+  width: 48px;
+  height: 48px;
+}
+
+.warning_icon{
+  background: url(../img/alert_small.png) no-repeat;
+  float:left;
+  width: 48px;
+  height: 48px;
+}
+
+.info_icon{
+  background: url(../img/info_small.png) no-repeat;
+  float:left;
+  width: 48px;
+  height: 48px;
+}

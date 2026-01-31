@@ -1,0 +1,138 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: Tahoma, Arial, sans-serif, 'Franklin Gothic Medium';
+	font-size: 12px;
+}
+.container{
+	width: 640px;
+	margin: 10px auto;
+	background: #f2f6fc;
+	border: 1px solid #7aa0e6;
+}
+
+.container_w{
+	width: 640px;
+	margin: 10px auto;
+	background: #fff;
+	border: 1px solid #fff;
+}
+
+.message{
+	padding: 20px;
+	font-size: 18px;
+	text-align: center;
+}
+hr{
+	border: 1px solid #7aa0e6;
+}
+
+.main_logo{
+	background: url(../img/maintenance/main_logo.png);
+	width: 640px;
+	height: 170px;
+}
+
+.monitor_container {
+	width: 640px;
+	margin: 10px auto;
+}
+
+
+.monitor_splash{
+	background: url(../img/monitor.png);
+	width: 640px;
+	height: 510px;
+}
+
+.arrow_button_img a{
+    text-decoration: none;
+    color: #000;
+}
+
+.arrow_button_img a:hover{
+    text-decoration: none;
+    color: #414141;
+}
+
+.arrow_button_img a:active{
+    text-decoration: none;
+    color: #b20000;
+}
+
+.arrow_button_img{
+    /*! position: absolute; */
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background: url(../img/arrowsprite.png) no-repeat;
+    float: right;
+    margin-left: 5px;
+}
+.arrow_button_img:active {
+    background-position: -56px 0;
+}
+
+.arrow_button_img:disabled {
+    background-position: -84px 0;
+}
+
+.setup a{
+    color: #000;
+    text-decoration: none;
+}
+
+.setup a:hover{
+    color: #5fa359;
+    text-decoration: none;
+}
+
+.setup a:active{
+    color: #b20000;
+    text-decoration: none;
+}
+
+.st_inst_button{
+    display: block;
+    font-weight: bold;
+    margin-left: 35px;
+    font-size: 16px;
+    margin-top: 3px;
+    float: right;
+}
+
+.splash{
+  width: 440px;
+}
+
+.splash_text{
+  margin-left: 35px;
+  line-height: 12px;
+  display: block;
+}
+
+.info_splash{
+  padding:10px;
+  background:#f4f7fa;
+  border:1px solid #bfd2e4;
+  margin-bottom:10px;
+}
+
+.lang_switch{
+	font-size: 11px;
+	float: left;
+}
+
+.lang_switch a{
+	color: #000;
+	text-decoration: none;
+}
+
+.lang_switch a:hover{
+	color: #000;
+	text-decoration: underline;
+}
+
+.lang_switch b{
+	color: #b20000;
+}
